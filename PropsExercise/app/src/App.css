@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header, .container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.header .logo span{
+  font-size: 50px;
+}
+.header .nav{
+  list-style: none;
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header .shoping{
+  font-size: 30px;
+}
+.header .cart-number{
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50%;
+}
+.container{
+  margin: 30px auto;
+  background-color: #7886C7;
+  border-radius: 20px;
+  padding: 30px;
+}
+.item-cart{
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.btn{
+  background-color: #2D336B;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  width: max-content;
+  margin: 20px auto;
+  padding:5px 10px ;
+  border: 3px solid transparent;
+  transition: all .3s ease-in-out;
+  user-select: none;
+}
+.btn:hover{
+  background-color: hsla(234, 41%, 35%, 0.882);
+}
+.promo{
+  font-size: 18px;
+  color: red;
+}
+.footer{
+  text-align: center;
+  margin: 60px auto;
+}
