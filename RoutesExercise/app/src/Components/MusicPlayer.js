@@ -62,7 +62,7 @@ export default function MusicPlayer() {
         <div className="flexbox body-container">
             {modifiedData.map((item, index) => (
                 <Song 
-                    key={index}
+                    key={item.name}
                     index={index} 
                     name={item.name} 
                     artist={item.artist} 
